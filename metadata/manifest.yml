@@ -1,0 +1,20 @@
+--- 
+Name: logstash
+Cartridge-Short-Name: logstash
+Cartridge-Vendor: 42six
+Cartridge-Version: 0.0.1
+Description: The logstash cartridge allows you to startup a version of logstash
+  which can be used to monitor all the logs going into the openshift gear log
+  directory.
+Categories: 
+  - embedded
+  - logstash
+Provide: 
+  - logstash
+Scaling: 
+  Max: 1
+  Min: 1
+  Multiplier: -1
+Version: "1.4.2"
+Versions: 
+  - "1.4.2"
